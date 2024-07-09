@@ -1,12 +1,13 @@
 package com.dedev.organize.organizeDay.service;
 
-import com.example.organizeday.model.User;
-import com.example.organizeday.repository.UserRepository;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.dedev.organize.organizeDay.model.User;
+import com.dedev.organize.organizeDay.repository.UserRepository;
 
 @Service
 public class UserService {

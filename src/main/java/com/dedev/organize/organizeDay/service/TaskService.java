@@ -1,11 +1,12 @@
 package com.dedev.organize.organizeDay.service;
 
-import com.example.organizeday.model.Task;
-import com.example.organizeday.repository.TaskRepository;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.dedev.organize.organizeDay.model.Task;
+import com.dedev.organize.organizeDay.repository.TaskRepository;
 
 @Service
 public class TaskService {
