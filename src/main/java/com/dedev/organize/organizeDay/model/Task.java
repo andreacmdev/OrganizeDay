@@ -1,5 +1,8 @@
 package com.dedev.organize.organizeDay.model;
 
+import javax.persistence.*;
+import java.time.LocalDateTime;
+
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -19,5 +22,5 @@ public class Task {
     @JoinColumn(name = "user_id")
     private User user;
 
-    
+    //getters e setters
 }
